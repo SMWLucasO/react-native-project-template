@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.nativetempalte"
+    namespace "com.YOUR_APP_NAME_HERE"
     defaultConfig {
-        applicationId "com.nativetempalte"
+        applicationId "com.YOUR_APP_NAME_HERE"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

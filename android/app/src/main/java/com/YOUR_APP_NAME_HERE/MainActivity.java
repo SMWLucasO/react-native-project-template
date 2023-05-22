@@ -1,4 +1,4 @@
-package com.nativetempalte;
+package com.YOUR_APP_NAME_HERE;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "nativetempalte";
+    return "YOUR_APP_NAME_HERE";
   }
 
   /**

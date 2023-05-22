@@ -1,4 +1,4 @@
-package com.nativetempalte;
+package com.YOUR_APP_NAME_HERE;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
