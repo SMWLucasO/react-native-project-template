@@ -1,7 +1,8 @@
 /** @type {import('@jest/types').Config.InitialOptions} */
 module.exports = {
+  preset: 'react-native',
   rootDir: '..',
-  testMatch: ['<rootDir>/e2e/**/*.test.js'],
+  testMatch: ['<rootDir>/test/e2e/**/*.e2e-spec.{ts,tsx,js,jsx}'],
   testTimeout: 120000,
   maxWorkers: 1,
   globalSetup: 'detox/runners/jest/globalSetup',
