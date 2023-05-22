@@ -14,7 +14,7 @@
     "e2e:android:attached": "npm run e2e:build android.att.release && npm run e2e android.att.release",
     "e2e:android:emulated": "npm run e2e:build android.emu.release && npm run e2e android.att.emulated",
     "e2e:ios": "npm run e2e:build ios.sim.release && npm run e2e ios.sim.release",
-    "test": "npm run test:unit && npm run test:component && npm run test:android:attached"
+    "test": "npm run test:unit && npm run test:component && npm run [[REPLACE WITH PREFERRED E2E TEST SCRIPT]]"
   },
   "dependencies": {
     "react": "18.2.0",
